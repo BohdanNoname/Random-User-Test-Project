@@ -1,2 +1,3 @@
 # Random-User-Test-Project
-Test project on a vacancy of Android developer.
+Test project for Junior Android Developer
+
