@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Random User</string>
+    <string name="contact_data">Contact Data</string>
+    <string name="mail">Mail:</string>
+    <string name="phone">Phone:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="location">Location</string>
+    <string name="date">Date Of Birth</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="country">Country:</string>
+</resources>
