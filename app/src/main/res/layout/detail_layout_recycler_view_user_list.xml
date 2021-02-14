@@ -10,7 +10,7 @@
 
     android:paddingStart="@dimen/distance"
     android:paddingEnd="@dimen/distance"
-    android:paddingTop="@dimen/low_distance">
+    android:paddingTop="@dimen/low_distance" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +24,6 @@
             android:layout_marginStart="20dp"
             android:layout_weight="10"
 
-            android:text="0"
             android:textAlignment="center"
             android:textColor="@color/light_blue"
             android:textSize="@dimen/header_size"/>

@@ -22,7 +22,7 @@ public class ProfileDataFragment extends Fragment {
 
     private ImageView imageView;
     private TextView name, surname, gender, email, phone, city, state, country, date, age;
-    private View root;
+    private View root, borderLine;
 
 
     public ProfileDataFragment(){}
@@ -55,7 +55,7 @@ public class ProfileDataFragment extends Fragment {
         country = root.findViewById(R.id.country);
         date = root.findViewById(R.id.date_of_birth);
         age = root.findViewById(R.id.age);
-
+        borderLine = root.findViewById(R.id.border_line);
         setDataToViews(user);
     }
 
@@ -72,6 +72,8 @@ public class ProfileDataFragment extends Fragment {
         country.setText(user.getCountry());
         date.setText(user.getDate());
         age.setText(user.getAge());
+
+        borderLine.setAlpha(1f);
     }
 
 }
