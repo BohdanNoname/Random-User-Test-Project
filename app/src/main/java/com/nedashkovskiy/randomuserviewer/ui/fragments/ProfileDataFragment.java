@@ -57,6 +57,7 @@ public class ProfileDataFragment extends Fragment {
         date = root.findViewById(R.id.date_of_birth);
         age = root.findViewById(R.id.age);
         borderLine = root.findViewById(R.id.border_line);
+
         setDataToViews(user);
     }
 

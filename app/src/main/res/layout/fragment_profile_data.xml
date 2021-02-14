@@ -69,6 +69,7 @@
             android:id="@+id/header_contacts"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="italic"
             android:text="@string/contact_data"
             android:textAlignment="center"
             android:layout_marginTop="@dimen/distance"
@@ -91,7 +92,8 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:maxWidth="@dimen/max_width_param_name"
+                android:maxWidth="@dimen/width_param_title"
+                android:minWidth="@dimen/width_param_title"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/phone"
@@ -120,6 +122,8 @@
 
             <TextView
                 android:layout_width="wrap_content"
+                android:maxWidth="@dimen/width_param_title"
+                android:minWidth="@dimen/width_param_title"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/mail"
@@ -141,6 +145,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/location"
+            android:textStyle="italic"
             android:layout_marginTop="@dimen/distance"
 
             android:textAlignment="center"
@@ -162,6 +167,9 @@
 
             <TextView
                 android:layout_width="wrap_content"
+                android:maxWidth="@dimen/width_param_title"
+                android:minWidth="@dimen/width_param_title"
+
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/city"
@@ -190,8 +198,11 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+
+                android:maxWidth="@dimen/width_param_title"
+                android:minWidth="@dimen/width_param_title"
                 android:text="@string/state"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
@@ -218,6 +229,9 @@
 
             <TextView
                 android:layout_width="wrap_content"
+                android:maxWidth="@dimen/width_param_title"
+                android:minWidth="@dimen/width_param_title"
+
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/country"
@@ -237,6 +251,7 @@
             android:id="@+id/header_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="italic"
             android:layout_marginTop="@dimen/distance"
             android:text="@string/date"
 
@@ -258,6 +273,9 @@
 
             <TextView
                 android:layout_width="wrap_content"
+                android:maxWidth="@dimen/width_param_title"
+                android:minWidth="@dimen/width_param_title"
+
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/date_of_birth"
@@ -285,6 +303,9 @@
 
             <TextView
                 android:layout_width="wrap_content"
+                android:maxWidth="@dimen/width_param_title"
+                android:minWidth="@dimen/width_param_title"
+
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/age"
