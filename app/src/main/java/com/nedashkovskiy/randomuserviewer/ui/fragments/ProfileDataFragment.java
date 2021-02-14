@@ -42,6 +42,7 @@ public class ProfileDataFragment extends Fragment {
         return root;
     }
 
+//    _______________________________________________
 
     private void userDataRealization(View root, User user){
         imageView = root.findViewById(R.id.fragment_profile_image);
